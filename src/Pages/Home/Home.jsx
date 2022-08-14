@@ -15,7 +15,7 @@ const Home = () => {
       <aside className='home-text'>
         <h1>Hola.</h1>
         <h2>Me llamo <span>Matias</span> </h2>
-        <h3>Desarrolador Front-End</h3>
+        <h3>Desarrollador Front-End</h3>
         <div className='home-links'>
           <a className='btn active' href="https://github.com/MatiasCordich" target="__blank">
             <img src="https://img.icons8.com/ios-glyphs/30/DFF6FF/github.png" alt='github-btn' /> Github
