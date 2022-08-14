@@ -1,0 +1,79 @@
+@import url(../../styles/variables.css);
+
+.about-section{
+    color: var(--grey);
+    
+}
+
+.about-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 95%;
+    margin: 15rem auto;
+}
+
+.photo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35rem;
+    width: 100%;
+    border-radius: 50%;
+    background: var(--blue);
+}
+
+.photo{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.about-text h2{
+    color: var(--lightBlue);
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-weight: 300;
+}
+
+.text-box span {
+    line-height: 4.5rem;
+}
+
+.bold{
+    font-weight: 600;
+    color: var(--lightBlue);
+}
+
+@media (min-width: 990px) {
+
+    .about-section{
+        margin: 25rem 0;
+    }
+    .about-box{
+        flex-direction: row;
+    }
+
+    .about-text{
+        width: 50%;
+    }
+
+    .about-text h2{
+        text-align: left;
+    }
+}

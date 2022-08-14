@@ -1,0 +1,11 @@
+:root{
+    --navyBlue: #080929;
+    --darkBlue: #06283D;
+    --blue: #1363DF;
+    --lightBlue: #47B5FF;
+    --whiteBlue: #DFF6FF;
+    --grey: #D1D1D1;
+
+    --principalFont: 'Poppins', sans-serif;
+    --secondaryFont: 'Roboto Mono', monospace;
+}

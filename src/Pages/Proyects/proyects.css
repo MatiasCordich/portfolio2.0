@@ -1,0 +1,52 @@
+@import url(../../styles/variables.css);
+
+.portfolio-section{
+    margin: 15rem 0;
+}
+
+.w-100 {
+    max-width: 95%;
+}
+
+.w-9{
+    width: 99%;
+}
+
+.flex-fix {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: rgba(6, 40, 61, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(6, 40, 61, 0.25);
+}
+
+.port-links {
+    color: var(--grey);
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    color: var(--lightBlue);
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    font-size: 4rem;
+    margin: 5rem 0;
+
+}
+
+.mx-6 {
+    margin: 5rem auto;
+}
+
+@media (min-width: 990px) {
+
+    .portfolio-section{
+        margin: 20rem 0;
+    }
+    .portfolio-section h2{
+        text-align: left;
+        margin: 5rem;
+    }
+}

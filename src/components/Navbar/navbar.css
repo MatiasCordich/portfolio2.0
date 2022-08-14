@@ -1,0 +1,153 @@
+@import url(../../styles/variables.css);
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    max-width: 200rem;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+
+}
+
+.glassmorphism {
+    background: rgba(8, 9, 41, 0.25);
+    backdrop-filter: blur(19.5px);
+    -webkit-backdrop-filter: blur(19.5px);
+    transition: .6s all;
+}
+
+.button-ham-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.button-close-box {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    align-items: center;
+    height: 8rem;
+    width: 100%;
+}
+
+.icon-2 {
+    display: none;
+}
+
+.button-ham {
+    border: none;
+    background-color: transparent;
+}
+
+ion-icon {
+    color: var(--blue);
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.navbar-items {
+    position: fixed;
+    background-color: var(--navyBlue);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    gap: 8rem;
+    max-width: 100vw;
+    width: 100%;
+    z-index: 9999;
+    transition: .5s;
+}
+
+.links {
+    font-weight: 300;
+    letter-spacing: .2rem;
+}
+
+.link:hover {
+    color: var(--whiteBlue);
+    transition: .6s all;
+}
+
+.showMenu {
+    height: 100vh;
+}
+
+.resume {
+    background-color: var(--blue);
+    color: var(--whiteBlue);
+    padding: 1rem 3rem;
+}
+
+.resume-button {
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 1rem 3rem;
+    color: var(--whiteBlue);
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    touch-action: manipulation;
+}
+
+.resume-button:after {
+    content: "";
+    background-color: var(--blue);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.resume-button:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+
+@media (min-width: 990px) {
+
+    .navbar {
+        padding: initial;
+    }
+
+    .button-ham-box,
+    .button-close-box,
+    .icon-1 {
+        display: none;
+    }
+
+    .icon-2 {
+        display: block;
+    }
+
+    .navbar-items {
+        position: sticky;
+        width: 100%;
+        height: 8rem;
+        margin: 2rem auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1rem;
+        transition: none;
+        background-color: transparent;
+    }
+
+    h1 {
+        display: block;
+    }
+}

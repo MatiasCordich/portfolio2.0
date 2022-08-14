@@ -1,0 +1,60 @@
+@import url(../../styles/variables.css);
+
+.contact{
+    margin: 15rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contact-box h3{
+    font-size: 1.8rem;
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    letter-spacing: .2rem;
+    color: var(--blue);
+}
+.contact-box h2{
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--lightBlue);
+}
+.contact-box p{
+    font-weight: 300;
+    width: 90%;
+    letter-spacing: .1rem;
+    line-height: 4.5rem;
+    color: var(--grey);
+}
+
+.contact-box a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (min-width: 990px) {
+    .contact{
+        margin: 25rem 0;
+    }
+
+    .contact-box{
+        width: 70%;
+    }
+
+    .contact-box p{
+        width: 70%;
+        text-align: center;
+    }
+
+    .contact-box h2{
+        font-size: 6rem;
+    }
+}
