@@ -54,7 +54,7 @@ const Home = () => {
                   pais: <span className='value'>"Argentina"</span>,
                 </p>
                 <p className='key'>lenguajes:
-                  <span className='value'>&#91;"HTML", "CSS", "Javascript"&#93;
+                  <span className='value'>&#91;"HTML", "CSS", "Javascript","Typescript"&#93;
                   </span>,
                 </p>
                 <p className='key'><span className='key'>skills: <span className='value'>&#123;</span></span>

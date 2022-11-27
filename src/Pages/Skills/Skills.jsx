@@ -31,7 +31,7 @@ const Skills = () => {
               <span>
                 <p style={{'marginLeft': '15px'}} className='key'>
                   lenguajes: <span className='value'>&#91;"HTML","CSS",
-                    "Javascript"&#93;,</span>
+                    "Javascript","Typescript"&#93;,</span>
                 </p>
                 <p style={{'marginLeft': '15px'}} className='key'>
                   framework: <span className='value'>&#91;"React","Styled-Components","Redux",

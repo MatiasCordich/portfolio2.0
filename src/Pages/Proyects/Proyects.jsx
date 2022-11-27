@@ -152,10 +152,91 @@ const Proyects = () => {
                   </p>
                 </span>
                 <span className='value'>&#125;</span>,
+
+                <span>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "titulo": <span className='value'>"La Scaloneta",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "descripcion": <span className='value'>"Interfaz simple para visualizar los datos en archivo json de una API creada por mí sobre la lista de jugadores de la selección Argentina",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "herramientas": <span className='value'>&#91;"HTML", "CSS", "Node.js" "Express", "Vercel"&#93;<span className='key'></span>,</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "sitios": <span className='value'>
+                      &#91;
+                      <a className='port-links' href="https://github.com/MatiasCordich/La-Scaloneta" target="__blank">"Github"</a>,
+                      <a className='port-links' href="https://github.com/MatiasCordich/SCALONETA-API" target="__blank">"Github de la API"</a>,
+                      <a className='port-links' href="https://la-scaloneta-rho.vercel.app/" target="__blank">"Pagina"</a>&#93;<span className='key'></span></span>
+                  </p>
+                </span>
+                <span className='value'>&#125;</span>,
+
+                <span>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "titulo": <span className='value'>"Task API",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "descripcion": <span className='value'>"Una API de tareas que utiliza la metodología CRUD",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "herramientas": <span className='value'>&#91;"Node.js" "Express", "MongoDB", "Mongoose", "Vercel"&#93;<span className='key'></span>,</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "sitios": <span className='value'>
+                      &#91;
+                      <a className='port-links' href="https://github.com/MatiasCordich/Task-API" target="__blank">"Github"</a>
+                    , <a className='port-links' href="https://task-api-uiit.vercel.app/" target="__blank">"Pagina",
+                    </a>
+                    <a className='port-links' href="https://documenter.getpostman.com/view/17280404/2s83S87AJM" target="__blank"> "Documentación"
+                    </a>
+                    &#93;<span className='key'></span></span>
+                  </p>
+                </span>
+                <span className='value'>&#125;</span>,
+                <span>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "titulo": <span className='value'>"Auth-API",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "descripcion": <span className='value'>"API de autentiación de usuarios",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "herramientas": <span className='value'>&#91;"Node.js" "Express", "MongoDB", "Mongoose", "JWT", "Bcrypt", "Vercel"&#93;<span className='key'></span>,</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "sitios": <span className='value'>
+                      &#91;
+                      <a className='port-links' href="https://github.com/MatiasCordich/Login-auth-jwt" target="__blank">"Github"</a>
+                    , <a className='port-links' href="https://login-auth-jwt.vercel.app/" target="__blank">"Pagina"</a>&#93;<span className='key'></span></span>
+                  </p>
+                </span>
+                <span className='value'>&#125;</span>,
+                <span>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "titulo": <span className='value'>"REST-API (AUTH - CRUD)",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "descripcion": <span className='value'>"API de autenticación y de manejo de datos CRUD utilizando Typescript",</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "herramientas": <span className='value'>&#91; "Node.js", "Typescript", "Express", "MongoDB", "Mongoose", "JWT", "Bcrypt"&#93;<span className='key'></span>,</span>
+                  </p>
+                  <p style={{ 'marginLeft': '15px' }} className='key'>
+                    "sitios": <span className='value'>
+                      &#91;
+                      <a className='port-links' href="https://github.com/MatiasCordich/Api-Typescript" target="__blank">"Github"</a>
+                    , <a className='port-links' href="https://matitips.notion.site/matitips/REST-API-Typescript-8279fc69d04c4ac49bd8106d41eb491d" target="__blank">"Documentación"</a>&#93;<span className='key'></span></span>
+                  </p>
+                </span>
+                <span className='value'>&#125;</span>,
               </div>
               <span style={{ 'marginLeft': '15px' }} className='value'>&#93;</span>
             </p>
             <span className='value'>&#125;</span>
+
+            
           </div>
 
 
